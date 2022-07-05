@@ -1,0 +1,484 @@
+body {
+	margin: 0;
+	background-color: #EBECEC;
+}
+
+li {
+  list-style-type: none;
+}
+
+.cabeçalho{
+	display: flex;
+	align-content: center;
+	justify-content: flex-start;
+	padding-left: 0px;
+	margin: 0;
+}
+
+#login{
+	display: block;
+	margin: 10px auto;
+	width: 250px;
+	height: 30px;
+}
+.loginUser{
+	display: block;
+	margin: 10px auto;
+	width: 250px;
+	height: 30px;
+}
+
+.barraTopo{
+	width: 100%;
+	height: 44px;
+	background-color: #f3f3f3;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+#globo {
+	order: 0;
+	color: blue;
+	font-weight: bold;
+	font-size: 16px;
+    padding-right: 9px;
+	padding-left: 80px;
+	font-family: 'Palanquin', sans-serif;
+}
+#g1 {
+	order: 1;
+	color: #c4170c;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right: 9px;
+	font-family: 'Palanquin', sans-serif;
+}	
+#ge {
+	order: 1;
+	color: #06aa48;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right: 9px;
+	font-family: 'Palanquin', sans-serif;
+}
+#gshow{
+	order: 1;
+	color: #ff6700;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right: 9px;
+	font-family: 'Palanquin', sans-serif;
+}
+#globoplay {
+	order: 1;
+	color: #fb0234;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right: 9px;
+	font-family: 'Palanquin', sans-serif;
+}
+#oglobo {
+	order: 1;
+	color: #1e4c9a;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right: 9px;
+	font-family: 'Palanquin', sans-serif;
+}
+
+#assinar{
+	order: 2;
+	color: #666;
+	font-weight: bold;
+	font-size: 16px;
+	margin-right: 20px;
+	padding-right:20px;
+	padding-left: 9px;
+	height: 30px;
+	font-family: 'Palanquin', sans-serif;
+	background-color: #FCFCFC;
+	
+
+}
+.titulo{
+	width: 100%;
+	height: 74px;
+	background-color: #C4170C;
+	display: flex;
+	align-content: stretch;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+.titulo h1 {
+	color: white;
+	font-size: 44px;
+	font-weight: bold;
+	font-family: 'Palanquin', serif;
+	margin-top: -10px;
+	margin-left: 50px;
+	
+}
+
+#menu{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Palanquin', sans-serif;
+	margin-left: 80px;
+	margin-right: 40px;
+	margin-top: 5px;
+	padding-top: 20px; 
+	padding-bottom: 30px;
+
+}
+#buscar{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Palanquin', sans-serif;
+	background-color: #8d1009;
+	height: 27px;
+	width: 100px;
+	margin-top: 28px;
+	margin-right: 80px;
+	margin-left: 40px;
+	border-left: 5px solid #8d1009;
+
+}
+.noticia {
+	display: flex;
+	justify-content: center;
+	align-content: stretch;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}
+
+.espaço{
+	width: 100%;
+	height: 30px;
+}
+.telegram {
+	width: 600px;
+	height: 472px;
+	background-color: white;
+	border-top: 1px solid #EBECEC;
+	border-bottom: 1px solid #EBECEC;
+	border-right: 1px solid #EBECEC;
+	border-left: 1px solid #EBECEC;
+	margin-right: 8px;
+	margin-top: 13px;
+}
+.telegram h2{
+	color: #c4170c;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Palanquin', sans-serif;
+	margin-top: 120px;
+	margin-left: 15px;
+	margin-bottom: 16px;
+}
+#tituloTelegram{
+	margin-top: 0;
+	padding-top: 16px;
+	font-weight: bold;
+	margin-left: 15px;
+	font-family: 'Palanquin', sans-serif;
+
+}
+#resumoTelegram{
+	margin-left: 15px;
+	font-family: 'Palanquin', sans-serif;
+	margin-top: 6px;
+}
+
+.covid{
+	width: 600px;
+    height: 472px;
+	background-image: url("img/virus.png");
+	margin-top: 13px;
+	margin-left: 5px;
+	border-top: 1px solid #EBECEC;
+	border-bottom: 1px solid #EBECEC;
+	border-right: 10px solid #EBECEC;
+	border-left: 5px solid #EBECEC;
+    
+}
+
+.covid h2 {
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Palanquin', sans-serif;
+	margin-top: 120px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+
+}
+
+#resumoCovid {
+	margin-left: 15px;
+	font-family: 'Palanquin', sans-serif;
+	margin-top: 6px;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+
+#tituloNoticiaCovid {
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-weight: bold;
+	margin-left: 15px;
+	font-family: 'Palanquin', sans-serif;
+	margin-top: 0;
+	padding-top: 16px;
+}
+#avisoLogin{
+	text-align: center;
+	font-family: 'Palanquin', sans-serif;
+	color: #8d1009;
+	font-size: 30px;
+}
+
+.interface{
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+
+}
+#login{
+	margin: 2px;
+}
+
+#senha{
+	margin: 5px;
+	height: 30px;
+}
+
+#confirm {
+	background-color: red;
+	height: 36px;
+}
+
+#campoPesquisa{
+	text-align: center;
+	font-family: 'Palanquin', sans-serif;
+	color: #8d1009;
+	font-size: 30px;
+}
+
+#campoBusca{
+	height: 22px;
+	width: 300px;
+}
+
+.pesquisa{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.listaResults{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	font-family: 'Palanquin', sans-serif;
+	font-size: 25px;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+
+}
+
+.mensagem{
+	margin-left: 5px;
+	font-size: 14px;
+}
+.mensagem.erro {
+	color: red;
+	font-family: 'Palanquin', sans-serif;
+}
+
+.mensagem.aceita {
+	color: rgb(17, 222, 30);
+	font-family: 'Palanquin', sans-serif;
+}
+
+.mensagem.notFox {
+	color: rgb(149, 119, 12);
+	font-family: 'Palanquin', sans-serif;
+}
+
+.confirmacao{
+	margin-left: 5px;
+	font-size: 18px;
+}
+
+.confirmacao.aceito{
+	color: rgb(9, 177, 51);
+	font-family: 'Palanquin', sans-serif;
+}
+.confirmacao.negado{
+	color: rgb(148, 5, 3);
+	font-family: 'Palanquin', sans-serif;
+	
+}
+
+#projeto3{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Palanquin', sans-serif;
+	font-size: 35px;
+	color: rgb(149, 5, 3);
+}
+
+
+@media only screen and (max-width: 360px){
+	.barraTopo{
+		display: none;
+	}
+	.titulo{
+		align-content: flex-start;
+		justify-content: space-evenly;
+	}
+	#menu {
+		margin-left: 15px;
+		margin-right: 10px;
+	}
+	#globo {
+		padding-left: 10x;
+	}
+	#buscar{
+		margin-top: 25px;
+		margin-left: 13px;
+		margin-right: 8px;
+	}
+    .noticia {
+    	justify-content: flex-start;
+    }
+    .telegram{
+    	width: 100%;
+    	border-left: 10px solid #EBECEC;
+    }
+    
+    .telegram h2 {
+    	margin-top: 90px;
+    	font-size: 38px;
+    }
+    .covid {
+    	width: 100%;
+    	border-left: 5px solid #EBECEC;
+    }
+
+    .covid h2 {
+    	font-size: 38px;
+    	margin-top: 93px;
+    }
+     
+}
+
+
+@media only screen and (max-width: 412px){
+	.barraTopo{
+		display: none;
+	}
+	.titulo{
+		align-content: flex-start;
+		justify-content: space-around;
+	}
+	#menu {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	#globo {
+		padding-left: 15px;
+	}
+	#buscar{
+		margin-left: 0px;
+		margin-right: 8px;
+	}
+
+	.titulo h1{
+		margin-right: 50px;
+	}
+  
+    .noticia {
+    	justify-content: flex-start;
+    }
+    .telegram{
+    	width: 100%;
+    	border-left: 10px solid #EBECEC;
+    }
+    
+    .telegram h2 {
+    	margin-top: 90px;
+    	font-size: 38px;
+    }
+    .covid {
+    	width: 100%;
+    	border-left: 5px solid #EBECEC;
+    }
+
+    .covid h2 {
+    	font-size: 38px;
+    	margin-top: 93px;
+    }
+     
+}
+
+@media only screen and (max-width: 416px){
+	.barraTopo{
+		display: none;
+	}
+	.titulo{
+		align-content: flex-start;
+		justify-content: space-around;
+	}
+	#menu {
+		margin-left: 8px;
+		margin-right: 0px;
+	}
+	#globo {
+
+		padding-left: 25px;
+	}
+	#buscar{
+		margin-left: 0px;
+		margin-right: 8px;
+	}
+
+	.titulo h1{
+		margin-right: 50px;
+	}
+  
+    .noticia {
+    	justify-content: flex-start;
+    }
+    .telegram{
+    	width: 100%;
+    	border-left: 10px solid #EBECEC;
+    }
+    
+    .telegram h2 {
+    	margin-top: 90px;
+    	font-size: 38px;
+    }
+    .covid {
+    	width: 100%;
+    	border-left: 5px solid #EBECEC;
+    }
+
+    .covid h2 {
+    	font-size: 38px;
+    	margin-top: 93px;
+    }
+     
+}

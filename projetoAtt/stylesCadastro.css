@@ -1,0 +1,190 @@
+body {
+	margin: 0;
+	background-color: #EBECEC;
+}
+
+li {
+  list-style-type: none;
+}
+
+.cabeçalho{
+	display: flex;
+	align-content: center;
+	justify-content: flex-start;
+	padding-left: 0px;
+	margin: 0;
+}
+
+.barraTopo{
+	width: 100%;
+	height: 44px;
+	background-color: #f3f3f3;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+#globo {
+	order: 0;
+	color: blue;
+	font-weight: bold;
+	font-size: 16px;
+    padding-right: 9px;
+	padding-left: 80px;
+	font-family: 'Palanquin', sans-serif;
+}
+#g1 {
+	order: 1;
+	color: #c4170c;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right: 9px;
+	font-family: 'Palanquin', sans-serif;
+}	
+#ge {
+	order: 1;
+	color: #06aa48;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right: 9px;
+	font-family: 'Palanquin', sans-serif;
+}
+#gshow{
+	order: 1;
+	color: #ff6700;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right: 9px;
+	font-family: 'Palanquin', sans-serif;
+}
+#globoplay {
+	order: 1;
+	color: #fb0234;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right: 9px;
+	font-family: 'Palanquin', sans-serif;
+}
+#oglobo {
+	order: 1;
+	color: #1e4c9a;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right: 9px;
+	font-family: 'Palanquin', sans-serif;
+}
+
+#assinar{
+	order: 2;
+	color: #666;
+	font-weight: bold;
+	font-size: 16px;
+	margin-right: 20px;
+	padding-right:20px;
+	padding-left: 9px;
+	height: 30px;
+	font-family: 'Palanquin', sans-serif;
+	background-color: #FCFCFC;
+	
+
+}
+
+.titulo{
+	width: 100%;
+	height: 74px;
+	background-color: #C4170C;
+	display: flex;
+	align-content: stretch;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+.titulo h1 {
+	color: white;
+	font-size: 44px;
+	font-weight: bold;
+	font-family: 'Palanquin', serif;
+	margin-top: -10px;
+	margin-left: 50px;
+	
+}
+
+#menu{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Palanquin', sans-serif;
+	margin-left: 80px;
+	margin-right: 40px;
+	margin-top: 5px;
+	padding-top: 20px; 
+	padding-bottom: 30px;
+
+}
+#buscar{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Palanquin', sans-serif;
+	background-color: #8d1009;
+	height: 27px;
+	width: 100px;
+	margin-top: 28px;
+	margin-right: 80px;
+	margin-left: 40px;
+	border-left: 5px solid #8d1009;
+
+}
+
+/* Parte do cadastro */
+#tituloCadastro{
+	font-family: 'Palanquin', sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.cadastro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#nomeC{
+	margin-bottom: 5px;
+	width: 250px;
+}
+
+#emailC{
+	margin-bottom: 5px;
+	width: 250px;
+}
+
+#senhaC{
+	margin-bottom: 5px;
+	width: 165px;
+}
+
+#confirmC{
+	color: white;
+	background-color: #8d1009;
+	width: 80px;
+}
+
+#linkTelaHome{
+	margin-top: 0px;
+	font-family: 'Palanquin', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-align: center;
+}
+
+#linkHome{
+	font-family: 'Palanquin', sans-serif;
+	color: #8d1009;
+}
+
